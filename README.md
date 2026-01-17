@@ -14,7 +14,7 @@ An AI-powered study platform designed for engineering students. Learnix combines
 - Join official course channels to access shared resources
 - Create private study groups and invite classmates
 - Chat in real-time with group members about coursework
-- Share files, notes, and resources within your courses
+- Share files, notes, and resources within your courses.
 
 ### Stay Organized
 - Keep all your course materials in one searchable location
