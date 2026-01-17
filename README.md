@@ -54,17 +54,21 @@ An AI-powered study platform designed for engineering students. Learnix combines
 - Next.js 14
 - React 18
 - Tailwind CSS
-- Firebase Authentication
 - Socket.IO Client
 - Framer Motion
 
 ### Backend
 - Node.js with Express 5
 - Prisma ORM
-- PostgreSQL
 - Socket.IO
-- Cloudinary (file storage)
-- Firebase Admin SDK
+- Firebase Authentication
+
+
+### Databases
+- PostgreSQL
+- Firebase Firestore
+- Cloudinary (File Storage)
+
 
 ### ML Service
 - FastAPI
