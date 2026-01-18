@@ -2,6 +2,11 @@
 
 An AI-powered study platform designed for engineering students. Learnix combines course management, AI-assisted learning tools, and productivity features into a single, cohesive workspace.
 
+## 🚀 Live Deployment
+
+Deployed Application:
+👉 https://learnix-ai-powered-study-platform.vercel.app/
+
 ## What You Can Do
 
 ### Learn Smarter with AI
