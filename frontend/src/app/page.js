@@ -89,26 +89,16 @@ export default function LandingPage() {
                 <div className="w-3 h-3 rounded-full bg-red-500/50" />
                 <div className="w-3 h-3 rounded-full bg-yellow-500/50" />
                 <div className="w-3 h-3 rounded-full bg-green-500/50" />
+                <span className="ml-3 text-sm font-medium text-indigo-200/70">Learnix demo video</span>
              </div>
-             {/* Abstract UI Representation */}
-             <div className="p-8 md:p-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-                {/* Mock Sidebar */}
-                <div className="hidden md:flex flex-col gap-4">
-                   <div className="h-8 w-3/4 bg-white/10 rounded animate-pulse" />
-                   <div className="h-4 w-1/2 bg-white/5 rounded" />
-                   <div className="h-4 w-2/3 bg-white/5 rounded" />
-                   <div className="h-4 w-1/2 bg-white/5 rounded" />
-                </div>
-                {/* Mock Main Content */}
-                <div className="md:col-span-2 space-y-6">
-                    <div className="h-32 w-full bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-xl border border-white/10 p-6 flex items-center justify-center">
-                        <span className="text-2xl font-bold text-white/50">Your Dashboard</span>
-                    </div>
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="h-24 bg-white/5 rounded-xl" />
-                      <div className="h-24 bg-white/5 rounded-xl" />
-                    </div>
-                </div>
+             <div className="bg-black">
+                <iframe
+                  className="aspect-video w-full"
+                  src="https://www.youtube.com/embed/1BDZn4wPh9Y"
+                  title="Learnix demo video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
              </div>
           </div>
         </motion.div>
