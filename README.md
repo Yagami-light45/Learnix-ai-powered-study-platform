@@ -10,7 +10,7 @@ Deployed Application:
 Demo Video:
 ▶️ https://youtu.be/1BDZn4wPh9Y
 
-## What You Can Do
+## What You Can Do!
 
 ### Learn Smarter with AI
 - Upload a PDF lecture note and get a concise summary in seconds
