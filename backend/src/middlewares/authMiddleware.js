@@ -12,10 +12,6 @@ export const verifyToken = async (req, res, next) => {
   try {
     const decodedToken = await auth.verifyIdToken(token);
     
-    // Domain Restriction Check
-    if (!decodedToken.email.endsWith("@iiti.ac.in")) {
-      return res.status(403).json({ error: "Institution email required (@iiti.ac.in)" });
-    }
 
     // Attach user info to the request so controllers can use it
     req.user = decodedToken;

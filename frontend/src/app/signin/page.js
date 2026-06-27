@@ -23,14 +23,6 @@ export default function SignInPage() {
       const result = await signInWithPopup(auth, googleProvider);
       const user = result.user;
       console.log(user);
-      if (!user.email.endsWith("@iiti.ac.in")) {
-        await signOut(auth);
-        setError(
-          "Access Restricted: Please use your college email (@iiti.ac.in)"
-        );
-        setIsLoading(false);
-        return;
-      }
 
       const token = await user.getIdToken(true);
       // console.log(token);
@@ -165,7 +157,7 @@ export default function SignInPage() {
               <div className="flex items-center gap-4 my-6">
                 <div className="flex-1 h-px bg-white/10" />
                 <span className="text-xs text-gray-500 uppercase tracking-wider">
-                  Institution Only
+                  Open Access
                 </span>
                 <div className="flex-1 h-px bg-white/10" />
               </div>
@@ -178,11 +170,10 @@ export default function SignInPage() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-white mb-1">
-                      IIT Indore Students Only
+                      Sign in with any Google account
                     </p>
                     <p className="text-xs text-gray-400">
-                      Please use your @iiti.ac.in email address to sign in.
-                      Other email domains are not permitted.
+                      Use your Google account to access Learnix and start your AI-powered learning journey.
                     </p>
                   </div>
                 </div>
